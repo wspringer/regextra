@@ -1,0 +1,22 @@
+{
+  "name": "regextra",
+  "version": "0.1.0",
+  "description": "Make dealing with regular expressions a little easier",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "coffee -c -o lib src"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "coffeescript": "^2.3.2",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "jest-preset-coffeescript": "^1.0.0"
+  },
+  "jest": {
+    "preset": "jest-preset-coffeescript"
+  }
+}
